@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html> lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Noticias</title>
+</head>
+<body>
+    <header>
+        <h1>Noticias del dia</h1>
+    </header>
+
+    <nav>
+        <a> href="#politica">Política</a>
+        <a> href="#deportes">Deportes</a>
+        <a> href="#tecnologia">Tecnología</a>
+        <a> href="#entretenimiento">Entretenimiento</a>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Noticia 1</h2>
+            <p>Resumen...</p>
+            <details>
+                <summary>Leer más...</summary>
+                <p>Contenido completo de la noticia</p>
+            </details>
+        </article>
+        
+        <article>
+            <h2>Noticia 2</h2>
+            <p>Resumen de la noticia 2...</p>
+            <details>
+                <summary>Leer más...</summary>
+                <p>Contenido completo de la noticia 2</p>
+            </details>
+        </article>
+        
+        <article>
+            <h2>Noticia 3</h2>
+            <p>Resumen de la noticia 3...</p>
+            <details>
+                <summary>Leer más...</summary>
+                <p>Contenido completo de la noticia 3</p>
+            </details>
+        </article>
+        
+        <article>
+            <h2>Noticia 4</h2>
+            <p>Resumen de la noticia 4...</p>
+            <details>
+                <summary>Leer más...</summary>
+                <p>Contenido completo de la noticia 4</p>
+            </details>
+        </article>
+        
+        <article>
+            <h2>Noticia 5</h2>
+            <p>Resumen de la noticia 5...</p>
+            <details>
+                <summary>Leer más...</summary>
+                <p>Contenido completo de la noticia 5</p>
+            </details>
+        </article>
+    </section>
+    <aside>
+        <h3>Noticas más Recientes</h3>
+        <ul>
+            <li><a href="#">Noticia 1</a></li>
+            <li><a href="#">Noticia 2</a></li>
+            <li><a href="#">Noticia 3</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; <span> id="currentYear"</span> Sitio de Noticias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Obtener el año actual
+        const currentYear = new Date().getFullYear();
+        //  Mostramos la fecha actual en el footer
+        document.getElementById("currentYear").innerHTML = currentYear;
+    </script>
+
+</body>
+</html>
