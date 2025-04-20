@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: cyan;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+nav{
+    background-color: #f2f2f2;
+    color : black;
+    padding: 10px;
+}
+nav a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+section{
+    background-color: beige;
+    display: flex;
+    margin: 20px;
+}
+article{
+    flex: 5;
+    margin-right: 25px;
+}
+aside{
+    flex: 1;
+    background-color: aquamarine;
+    padding: 15px;
+}
+footer{
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
