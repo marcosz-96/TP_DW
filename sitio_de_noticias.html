@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> lang="es">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +11,10 @@
     </header>
 
     <nav>
-        <a> href="#politica">Política</a>
-        <a> href="#deportes">Deportes</a>
-        <a> href="#tecnologia">Tecnología</a>
-        <a> href="#entretenimiento">Entretenimiento</a>
+        <a href="#politica">Política</a>
+        <a href="#deportes">Deportes</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#entretenimiento">Entretenimiento</a>
     </nav>
 
     <section>
@@ -73,14 +73,14 @@
     </aside>
 
     <footer>
-        <p>&copy; <span> id="currentYear"</span> Sitio de Noticias. Todos los derechos reservados.</p>
+        <p>&copy; <span id="currentYear"></span> Sitio de Noticias. Todos los derechos reservados.</p>
     </footer>
 
     <script>
         // Obtener el año actual
         const currentYear = new Date().getFullYear();
         //  Mostramos la fecha actual en el footer
-        document.getElementById("currentYear").innerHTML = currentYear;
+        document.getElementById("currentYear").textContent = currentYear;
     </script>
 
 </body>
